@@ -149,7 +149,7 @@ def get_history(prompt_id):
     with urllib.request.urlopen(f"http://{COMFY_HOST}/history/{prompt_id}") as response:
         return json.loads(response.read())
 
-
+##
 # ==========================================
 # UTILS
 # ==========================================
